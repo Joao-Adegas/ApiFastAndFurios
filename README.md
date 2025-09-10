@@ -1,52 +1,74 @@
 ![Image](https://github.com/user-attachments/assets/0694ef9f-2651-4d1c-b9f4-92c003823e00)
 
-Prerequisites
+# 🚗 Fast & Furious Cars — Project Setup Guide
 
-- Have XAMPP installed on your machine.
+Welcome! This guide will help you get the project up and running smoothly.  
+Make sure you have **XAMPP**, **Python**, and **Node.js** installed before starting.
 
-Steps to initialize the project
+---
 
-  XAMPP:
-  
-  - Open XAMPP.
+## 🔧 Prerequisites
 
-  - Go to Apache Config and click on "Apache (httpd.conf)".
+- [XAMPP](https://www.apachefriends.org/index.html) installed on your machine  
+- Python installed  
+- Node.js installed
 
-  - Change the ports 8000 to 8080 (Press Ctrl + F and search for 8000 to help you find it).
+---
 
-  - Start Apache and MySQL by clicking on "Start" (If MySQL starts and then stops, open Task Manager and end all mysql processes).
+## ⚙️ Step-by-Step Setup
 
-  - Go to MySQL Admin and import the database from the "Database" folder, using the file "carros_velozes_e_furiosos.sql".
-  
-  BackEnd:
-  
-  - Navigate to the BackEnd folder.
+### 🧱 XAMPP Configuration
 
-  - Initialize the virtual environment:
-  
-          python -m venv env
-        ./env/Scripts/activate
+1. Open **XAMPP**.
+2. Click on **Apache Config** and open `httpd.conf`.
+3. Find and replace port `8000` with `8080` (use `Ctrl + F` to search).
+4. Start **Apache** and **MySQL** by clicking **Start**.
+   - If MySQL starts and then stops, open **Task Manager** and end all `mysql` processes.
+5. Click **MySQL Admin** and import the database:
+   - Go to the `Database` folder
+   - Import `carros_velozes_e_furiosos.sql`
 
-  - Install the dependencies from requirements.txt:
-  
-        pip install -r requirements.txt
+---
 
-  - Start the BackEnd by running the following command in the terminal:
-  
-        python main.py
+### 🐍 BackEnd Setup
 
-  FrontEnd:
-  
-  - Navigate to the FrontEnd folder.
-  
-  - Install the node_modules dependencies:
-  
-        npm i
-  
-  - Run the FrontEnd with the command:
-  
-        npm run dev
-  
-  - Open the link provided in the terminal to access the application.
+1. Navigate to the `BackEnd` folder.
+2. Create and activate a virtual environment:
+
+   ```bash
+   python -m venv env
+   ./env/Scripts/activate
+   ```
+
+3. Install dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+
+    ```
+
+4. Start the BackEnd server:
+
+    ```bash
+    python main.py
+    ```
+
+### 🐍 FrontEnd Setup
+
+1. Navigate to the FrontEnd folder.
+
+2. Install dependencies:
+
+    ```bash
+    npm i
+    ```
+
+3. Run the FrontEnd server:
+
+    ```bash
+    npm run dev
+    ```
+
+4. Open the link shown in the terminal to access the app in your browser.
 
 

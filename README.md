@@ -1,4 +1,4 @@
-![Image](https://github.com/user-attachments/assets/0694ef9f-2651-4d1c-b9f4-92c003823e00)
+![demo](./assets/gif.gif)
 
 # 🚗 Fast & Furious Cars — Project Setup Guide
 

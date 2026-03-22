@@ -62,8 +62,8 @@ function App() {
         "Content-Type": "application/json",
       }
     })
-    .then(() => {
-      searchCarros()
+    .then((r) => {
+        setCarros(r.data);
     })
     .catch(error => {
       console.error("Erro ao criar carro:",error)

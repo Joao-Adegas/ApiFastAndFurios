@@ -31,10 +31,14 @@ body{
     width: 120px;
     position: absolute;
     left: 40vw;
-    top: 20vh;
+    top: 0vh;
   }
+
+.slide-item {
+  width: 40%;
+}
   .slide-item img{
-    width: 50vw;
+    width: 100%;
     transform: rotate(-15deg);
 
   }
@@ -45,7 +49,6 @@ body{
 
   }
   .nome{
-
     font-size: 2.5rem;
     font-weight: 800;
   }

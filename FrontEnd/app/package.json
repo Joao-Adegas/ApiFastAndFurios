@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "@vitejs/plugin-react": "^6.0.1",
-    "axios": "^1.13.6",
+    "axios": "^1.15.2",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-modal": "^3.16.3",
